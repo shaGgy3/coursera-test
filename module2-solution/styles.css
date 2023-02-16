@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+h1, p{
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+}
+.row1{
+    width: 30%;
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    background-color: aqua;
+}
+.row2{
+    width: 30%;
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    background-color: aqua;
+}
+.row3{
+    width: 30%;
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    background-color: aqua;
+}
+.head1{
+    border: 1px solid black;
+    float: right;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    background-color: orange;
+
+}
+.head2{
+    border: 1px solid black;
+    float: right;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    background-color: red;
+
+}
+.head3{
+    border: 1px solid black;
+    float: right;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    background-color: purple;
+    color: white;
+}
+.description{
+    color: black;
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .row1{
+        width: 45%;
+        margin-left: 3.33%;
+        margin-top:3.33
+    }
+    .row2{
+        width: 45%;
+        margin-left: 3.33%;
+        margin-top:3.33
+    }
+    .row3{
+        width:93.3%;
+        margin-left: 3.3%;
+        margin-top:3.33
+    }
+}
+
+@media (max-width:767px) {
+    .row1{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .row2{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .row3{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+}
